@@ -1,0 +1,34 @@
+import java.util.Scanner;
+/**
+ * calculadora que fiz sozinho
+ * 
+ * lucas lindo 
+ * 13/03/2020
+ */
+
+ public class riks
+{
+    public static void main(String [] args){
+        Scanner teclado = new Scanner(System.in);
+    
+        double x;
+        double y;
+        
+        double soma;
+        double sub;
+        double multi;
+        double divi;
+    
+        System.out.println("Digite o primeiro valor");
+        x = teclado.nextDouble();
+        System.out.println("Digite o segundo valor");
+        y = teclado.nextDouble();
+    
+        soma = x+y;
+        sub = x-y;
+        multi = x*y;
+        divi = x/y;
+    
+        System.out.println("A resultado é: "+soma);
+    }
+}
