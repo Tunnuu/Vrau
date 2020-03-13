@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+    public class testes
+{
+                public static void main (String [] args){
+                    Scanner teclado = new Scanner(System.in);
+                  
+               double m; //massa 
+               double a; //acelerecao
+               double d; //distancia
+               double t; //tempo
+               double v; //velocidade
+           
+               double forca;
+               double velo;
+               double dist;
+           
+           
+               System.out.println("Primeiro vamos calcular a força\n");
+           
+                System.out.println("Digite a massa");
+                m = teclado.nextDouble();
+                System.out.println("Digite a acelereção");
+                a = teclado.nextDouble();
+            
+                forca = m*a;
+           
+                System.out.println("A força é "+forca + "\n");
+           
+           
+                System.out.println("Agora vamos calcular a velocidade\n");
+           
+                System.out.println("Digite a distancia");
+                d = teclado.nextDouble();
+                System.out.println("Digite o tempo");
+                t = teclado.nextDouble();
+           
+                velo = d/t;
+           
+                System.out.println("A velocidade é "+velo + "\n");
+                
+                
+                System.out.println("E por ultimo a distancia\n");
+           
+                System.out.println("Digite velocidade");
+                v = teclado.nextDouble();
+                System.out.println("Digite o tempo ");
+                t = teclado.nextDouble();
+           
+                dist = v*t;
+           
+                System.out.println("A distancia é "+dist + "\n");
+                
+       
+    }
+}
