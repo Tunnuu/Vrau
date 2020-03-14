@@ -1,0 +1,44 @@
+import java.util.Scanner;
+/**
+ * conversor.
+ * 
+ * Lucas 
+ * 13/03/2020 
+ */
+    public class conversor
+{
+              public static void main (String [] args){
+                    
+                    
+               
+             Scanner teclado = new Scanner(System.in);
+                
+                
+             double r = 1;
+             double d = 4.77;
+                
+                
+             double conv;
+             double disc;
+                
+                
+             System.out.println("Insira um valor (dolar) ");
+             r = teclado.nextDouble();
+                
+             conv = r*d;
+                
+             System.out.printf("R$ %.2f\n\n", conv);
+                
+                
+             System.out.println("Insira um valor (real) ");
+             r = teclado.nextDouble();
+                
+             disc = r/d;
+                
+             System.out.printf("$ %.2f", disc);
+                
+                
+                
+                
+            }   
+}
