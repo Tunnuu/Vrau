@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+/* primeiro programa, ou seja, um programa bem merda mesmo */
+ class flinston  {
+        public static void main(String[] args)  {
+         Scanner tec = new Scanner(System.in);        
+            
+         double x; //lado da casa/da sala        
+         double y; //comprimento do banheiro e do quarto                  
+         double z; //largura do banheiro e do quarto                   
+         
+         System.out.println ("Esse programa vai calcular a area da casa, oia q legal\n");
+         
+         System.out.println ("Lado da casa ");
+         x = tec.nextDouble();
+         
+         System.out.println("Comprimento do banheiro e do quarto ");
+         y = tec.nextDouble();
+         
+         z = x/2;
+         
+         System.out.println("Area da sala: " + x*x);
+         System.out.println("Area do banheiro e do quarto: " + z*y);
+         System.out.println("Area total: " + (x*x + 2*y*z));
+         
+         
+     }
+     
+     
+     
+ }   
